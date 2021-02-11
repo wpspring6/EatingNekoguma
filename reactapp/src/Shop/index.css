@@ -1,0 +1,87 @@
+.shop-form {
+    box-sizing: border-box;
+    font-size: 16px;
+    color: #333;
+    width: 60%;
+    margin: auto;
+}
+
+h1 {
+    color: #364e96;/*文字色*/
+    padding: 0.5em 0;/*上下の余白*/
+    border-top: solid 3px #364e96;/*上線*/
+    border-bottom: solid 3px #364e96;/*下線*/
+  }
+
+form{
+    margin: 10px;
+    padding: 20px;
+    width: 100%;
+    background: #fff;
+    margin: auto;
+}
+
+dl {
+    margin: 0;
+    font-size: 16;
+}
+
+.formItem{
+    display: flex;
+    margin-bottom: 2em;
+    align-items: center;
+}
+
+dt {
+    flex: 1 1 30px;
+    text-align: right;
+    margin-right: 1em;
+    font-weight: bold;
+    color: #00a;
+}
+
+dd{
+    flex: 2 1 30px;
+    margin-left: 0;
+}
+
+input[type="text"], textarea {
+    border: 1px solid #999;
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.button_wrapper {
+    text-align: center;
+}
+
+button{
+    background: #00a;
+    border: none;
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 14px;
+}
+
+#post-code{
+    width: 30%;
+}
+
+.formItems{
+    display: flex;
+    margin-bottom: 2em;
+    align-items: top;
+}
+
+.form-detail{
+    text-align: left;
+    font-weight: lighter;
+    color: blue;
+}
+
+textarea{
+    height: 5em;
+}
